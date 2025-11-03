@@ -2,7 +2,7 @@
 #define USER_H
 
 #include<string>
-#include "./Cart.h"
+#include "Cart.h"
 using namespace std;
 
 class User{
