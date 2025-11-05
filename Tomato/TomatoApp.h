@@ -24,7 +24,7 @@ TomatoApp(){
 }
 
 void initializeRestaurants(){
-    Restaurant* restaurant1 = new Restaurant("Bikaner", "Delhi");
+    Restaurant* restaurant1 = new Restaurant("Bikaner", "Banglore");
     restaurant1->addMenuItem(MenuItem("P1", "Chole Bhature", 120));
     restaurant1->addMenuItem(MenuItem("P2", "Samosa", 15));
 
