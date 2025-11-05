@@ -19,7 +19,7 @@ class Cart{
         restaurant=nullptr;
     }
 
-    void addItem(MenuItem& item){
+    void addItem(const MenuItem& item){
         if(!restaurant){
             cerr << "Cart: Set a restaurant before adding items." << endl;
             return;
